@@ -7,7 +7,7 @@ import HandTrackingModule as htm
 
 ####################################
 brushThickness = 15
-eraserThickness = 50
+eraserThickness = 70
 ####################################
 
 
@@ -24,7 +24,7 @@ print(len(overlayList))
 header = overlayList[0]
 
 # color
-drawColor = (255, 0, 255)
+drawColor = (0, 0, 255)
 
 
 cap = cv2.VideoCapture(0)
@@ -70,7 +70,7 @@ while True:
             if y1<125:
                 if 250 < x1 < 450:
                     header = overlayList[0]
-                    drawColor = (255, 0 ,255)
+                    drawColor = (0, 0 ,255)
                 elif 550 < x1 < 750:
                     header = overlayList[1]
                     drawColor = (255, 0 , 0)
