@@ -1,5 +1,5 @@
-# virtual-pad
-The Virtual-Board is an A.I. based tool which uses hand gestures being monitored by an 
+# virtual-board
+The Virtual-Board is a tool which uses hand gestures being monitored by an 
 inbuilt system webcam or an external one, thus enabling the user to directly write upon the 
 screen of system virtually without making use of any additional gadgets like light pen or any 
 pen-tab type of format.
